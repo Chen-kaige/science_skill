@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">science_skill overview</title>
+  <desc id="desc">A visual map showing how science_skill converts research notes into a Science-family submission package.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7fbff"/>
+      <stop offset="52%" stop-color="#eef7f2"/>
+      <stop offset="100%" stop-color="#fff7ed"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#1f2937" flood-opacity="0.14"/>
+    </filter>
+    <style>
+      .title { font: 700 42px Arial, Helvetica, sans-serif; fill: #12212f; }
+      .subtitle { font: 400 19px Arial, Helvetica, sans-serif; fill: #4b5563; }
+      .label { font: 700 18px Arial, Helvetica, sans-serif; fill: #111827; }
+      .body { font: 400 14px Arial, Helvetica, sans-serif; fill: #4b5563; }
+      .small { font: 700 12px Arial, Helvetica, sans-serif; fill: #2563eb; letter-spacing: .08em; }
+      .card { fill: #ffffff; stroke: #d8e2ea; stroke-width: 1.5; rx: 18; filter: url(#shadow); }
+      .chip { fill: #eff6ff; stroke: #bfdbfe; stroke-width: 1; rx: 999; }
+      .arrow { stroke: #64748b; stroke-width: 3; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="520" fill="url(#bg)"/>
+
+  <text x="64" y="72" class="title">science_skill</text>
+  <text x="64" y="106" class="subtitle">Science-family manuscript preparation for agent workflows</text>
+
+  <rect x="840" y="48" width="270" height="44" class="chip"/>
+  <text x="876" y="76" class="small">SCIENCE / AAAS AWARE</text>
+
+  <rect x="70" y="165" width="240" height="190" class="card"/>
+  <text x="102" y="206" class="label">1. Input</text>
+  <text x="102" y="236" class="body">Research notes</text>
+  <text x="102" y="260" class="body">Draft manuscript</text>
+  <text x="102" y="284" class="body">Chinese author notes</text>
+  <text x="102" y="308" class="body">Review risks</text>
+
+  <path d="M318 260 C350 260 370 260 405 260" class="arrow"/>
+
+  <rect x="420" y="135" width="360" height="250" class="card"/>
+  <text x="452" y="176" class="label">2. Science Contract</text>
+  <text x="452" y="206" class="body">Target journal and article type</text>
+  <text x="452" y="230" class="body">Core claim and broad significance</text>
+  <text x="452" y="254" class="body">Figure-to-evidence map</text>
+  <text x="452" y="278" class="body">Supplement and availability package</text>
+  <text x="452" y="302" class="body">Policy and reproducibility checks</text>
+  <rect x="452" y="326" width="132" height="34" class="chip"/>
+  <text x="472" y="348" class="small">VERIFY LIMITS</text>
+
+  <path d="M788 260 C820 260 840 260 875 260" class="arrow"/>
+
+  <rect x="890" y="165" width="240" height="190" class="card"/>
+  <text x="922" y="206" class="label">3. Output</text>
+  <text x="922" y="236" class="body">Submission skeleton</text>
+  <text x="922" y="260" class="body">Abstract/title polish</text>
+  <text x="922" y="284" class="body">Cover letter plan</text>
+  <text x="922" y="308" class="body">Blocking issue audit</text>
+
+  <rect x="145" y="405" width="910" height="48" fill="#ffffff" stroke="#d8e2ea" stroke-width="1.5" rx="12"/>
+  <text x="182" y="436" class="body">Built around source-basis, template-contract, style-and-structure, and submission-checklist references.</text>
+</svg>
